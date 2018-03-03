@@ -1,0 +1,30 @@
+﻿@inject IViewLocalizer Localizer
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/now-ui-dashboard.css"/>
+
+</head>
+<body>
+    <div class="wrapper">        
+        @{await Html.RenderPartialAsync("_Aside"); }
+        <div class="main-panel">
+            @{ await Html.RenderPartialAsync("_Header"); }
+           
+                @RenderBody()           
+            @{await Html.RenderPartialAsync("_Footer"); }
+        </div>
+
+        @{ await Html.RenderPartialAsync("_Scripts"); }
+        @RenderSection("pagespecific", false);
+        @RenderSection("scripts", false);
+    </div>
+</body>
+</html>

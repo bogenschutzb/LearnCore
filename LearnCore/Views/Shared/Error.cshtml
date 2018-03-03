@@ -1,0 +1,8 @@
+﻿@inject IViewLocalizer Localizer
+@model ErrorViewModel
+@{
+    ViewData["Title"] = Localizer["ErrorTitle"];
+}
+
+<h1 class="text-danger">@Localizer["ErrorTitle"]</h1>
+<h2 class="text-danger">@Localizer["ErrorMsg"]</h2>
