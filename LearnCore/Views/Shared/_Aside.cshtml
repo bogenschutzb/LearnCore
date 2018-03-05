@@ -11,19 +11,19 @@
     </div>
     <div class="sidebar-wrapper">
         <ul class="nav">
-            <li class="active">
+            <li class="navMenuItems">
                 <a asp-area="" asp-controller="Home" asp-action="Index">
                     <i class="now-ui-icons design_app"></i>
                     <p>@Localizer["Dashboard"]</p>
                 </a>
             </li>
-            <li>
-                <a asp-area="" asp-controller="Home" asp-action="Index">
+            <li class="navMenuItems">
+                <a asp-area="" asp-controller="Charts" asp-action="ChartDashboard"> 
                     <i class="now-ui-icons business_badge"></i>
-                    <p>@Localizer["Map"]</p>
+                    <p>@Localizer["Chart"]</p>
                 </a>
             </li>
-            <li>
+            <li class="navMenuItems">
                 <a asp-area="" asp-controller="Users" asp-action="UserDashboard">
                     <i class="now-ui-icons education_atom"></i>
                     <p>@Localizer["User"]</p>

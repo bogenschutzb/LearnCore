@@ -61,15 +61,6 @@ namespace LearnCore.Resources.Views.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Coming Soon.
-        /// </summary>
-        internal static string ComingSoon {
-            get {
-                return ResourceManager.GetString("ComingSoon", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to More Being Uploaded Soon!.
         /// </summary>
         internal static string FooterMsg {
@@ -79,20 +70,20 @@ namespace LearnCore.Resources.Views.Home {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hello!.
+        /// </summary>
+        internal static string HeaderMsg {
+            get {
+                return ResourceManager.GetString("HeaderMsg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Welcome to my learnings through rambling thoughts..
         /// </summary>
         internal static string HomeMsg {
             get {
                 return ResourceManager.GetString("HomeMsg", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Home Page.
-        /// </summary>
-        internal static string HomePage {
-            get {
-                return ResourceManager.GetString("HomePage", resourceCulture);
             }
         }
     }

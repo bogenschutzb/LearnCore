@@ -25,6 +25,8 @@ namespace LearnCore
             services.AddLocalization(options => options.ResourcesPath = "Resources");
             
             services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
+
+            IocBootstrap.Register(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

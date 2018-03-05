@@ -61,38 +61,20 @@ namespace LearnCore.Resources.Views.Users {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Coming Soon.
+        ///   Looks up a localized string similar to You found all my users!!.
         /// </summary>
-        internal static string ComingSoon {
+        internal static string FooterMsg {
             get {
-                return ResourceManager.GetString("ComingSoon", resourceCulture);
+                return ResourceManager.GetString("FooterMsg", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Something is coming....
+        ///   Looks up a localized string similar to All Users.
         /// </summary>
-        internal static string UsersDashboard {
+        internal static string HeaderMsg {
             get {
-                return ResourceManager.GetString("UsersDashboard", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Users Page.
-        /// </summary>
-        internal static string UsersPage {
-            get {
-                return ResourceManager.GetString("UsersPage", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Need a break... Have a snickers. .
-        /// </summary>
-        internal static string WaitAwhile {
-            get {
-                return ResourceManager.GetString("WaitAwhile", resourceCulture);
+                return ResourceManager.GetString("HeaderMsg", resourceCulture);
             }
         }
     }

@@ -26,13 +26,13 @@ namespace LearnCore.CommonLibrary.Client.TestRespository
                 {
                     Id = 2,
                     Name = "Test 2",
-                    EmailAddress = "Test1@test.com"
+                    EmailAddress = "Test2@test.com"
                 },
                 new User
                 {
                     Id = 3,
                     Name = "Test 3",
-                    EmailAddress = "Test1@test.com"
+                    EmailAddress = "Test3@test.com"
                 }
              };
         }

@@ -59,5 +59,14 @@ namespace LearnCore.Resources.Views.Shared {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rambling Thoughts.
+        /// </summary>
+        internal static string RamblingThoughts {
+            get {
+                return ResourceManager.GetString("RamblingThoughts", resourceCulture);
+            }
+        }
     }
 }

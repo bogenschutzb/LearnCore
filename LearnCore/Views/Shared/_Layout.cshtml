@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"]</title>
+    <title>@Localizer["RamblingThoughts"]</title>
 
     <link rel="stylesheet" href="~/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
@@ -28,3 +28,10 @@
     </div>
 </body>
 </html>
+
+<script>
+    $(document).ready(function () {
+        var pathname = window.location.pathname;
+        $('.nav > li > a[href="' + pathname + '"]').parent().addClass('active');
+    })
+</script>

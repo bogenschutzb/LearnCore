@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LearnCore.Resources.Views.Shared {
+namespace LearnCore.Resources.Views.Charts {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace LearnCore.Resources.Views.Shared {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class _Aside {
+    internal class ChartDashboard {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal _Aside() {
+        internal ChartDashboard() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace LearnCore.Resources.Views.Shared {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LearnCore.Resources.Views.Shared._Aside", typeof(_Aside).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LearnCore.Resources.Views.Charts.ChartDashboard", typeof(ChartDashboard).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,47 +61,20 @@ namespace LearnCore.Resources.Views.Shared {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Chart.
+        ///   Looks up a localized string similar to Feature Coming Soon... So they say!.
         /// </summary>
-        internal static string Chart {
+        internal static string FooterMsg {
             get {
-                return ResourceManager.GetString("Chart", resourceCulture);
+                return ResourceManager.GetString("FooterMsg", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dashboard.
+        ///   Looks up a localized string similar to Top 10 Users.
         /// </summary>
-        internal static string Dashboard {
+        internal static string Top10Users {
             get {
-                return ResourceManager.GetString("Dashboard", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Rambling Thoughts.
-        /// </summary>
-        internal static string RamblingThoughts {
-            get {
-                return ResourceManager.GetString("RamblingThoughts", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to RT.
-        /// </summary>
-        internal static string RamblingThoughtsInitials {
-            get {
-                return ResourceManager.GetString("RamblingThoughtsInitials", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to User.
-        /// </summary>
-        internal static string User {
-            get {
-                return ResourceManager.GetString("User", resourceCulture);
+                return ResourceManager.GetString("Top10Users", resourceCulture);
             }
         }
     }

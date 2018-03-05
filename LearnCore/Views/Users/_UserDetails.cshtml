@@ -1,0 +1,7 @@
+﻿@model IEnumerable<LearnCore.Models.User>
+
+@foreach (var user in Model)
+{
+    <label>@user.Name (#@user.Id)  - @user.EmailAddress</label>
+    <hr />
+}
